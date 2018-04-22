@@ -52,20 +52,21 @@ define(['settings'], function(Settings) {
       */
 
       // OpenTSDB & Elasticsearch example setup
-      /*
+      
       datasources: {
         opentsdb: {
           type: 'opentsdb',
-          url: "http://opentsdb.server:4242",
+          url: "http://tsd.hpc.criteo.preprod:4243",
         },
+      /*
         elasticsearch: {
           type: 'elasticsearch',
           url: "http://my.elastic.server.com:9200",
           index: 'grafana-dash',
           grafanaDB: true,
         }
+       */
       },
-      */
 
       /* Global configuration options
       * ========================================================
